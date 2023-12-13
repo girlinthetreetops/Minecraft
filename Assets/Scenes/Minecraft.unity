@@ -1759,7 +1759,6 @@ MonoBehaviour:
   - {fileID: 4649578129035037209, guid: 986eb3d1cc1a745f9a9651ff7e48a940, type: 3}
   - {fileID: 4495893775617375572, guid: 93db4974fe1c04a31bbc66bec44c684c, type: 3}
   - {fileID: 8395631381265581715, guid: 32d8dc4bc08c5438cb55954c97f0ba7f, type: 3}
-  - {fileID: 2853073566530225537, guid: 9ff867d78025449dda1c7ef14b97d76f, type: 3}
   selectedSpawnIndex: 0
   errorSound: {fileID: 1356899405}
   placementSound: {fileID: 2094160037}

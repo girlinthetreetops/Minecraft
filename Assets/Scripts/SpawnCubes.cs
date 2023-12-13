@@ -26,25 +26,25 @@ public class SpawnCubes : MonoBehaviour
     private void MoveSpawnCube()
     {
         //move forward
-        if (Input.GetKeyDown("up") && transform.position.z < 4)
+        if (Input.GetKeyDown(KeyCode.W) && transform.position.z < 4)
         {
             transform.Translate(new Vector3(0, 0, 1));
             moveSound.Play();
         }
         //move backward
-        if (Input.GetKeyDown("down") && transform.position.z > -4)
+        if (Input.GetKeyDown(KeyCode.S) && transform.position.z > -4)
         {
             transform.Translate(new Vector3(0, 0, -1));
             moveSound.Play();
         }
         //move right
-        if (Input.GetKeyDown("right") && transform.position.x < 4)
+        if (Input.GetKeyDown(KeyCode.D) && transform.position.x < 4)
         {
             transform.Translate(new Vector3(1, 0, 0));
             moveSound.Play();
         }
         //move left
-        if (Input.GetKeyDown("left") && transform.position.x > -4)
+        if (Input.GetKeyDown(KeyCode.A) && transform.position.x > -4)
         {
             transform.Translate(new Vector3(-1, 0, 0));
             moveSound.Play();
